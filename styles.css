@@ -1,0 +1,79 @@
+/* ===================
+/  Color Scheme
+/       #4D4646
+/       #5B5656
+/       #7FCD91
+/       #F5EAEA
+=================== */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+
+
+/* ----- Globals -----*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(245, 243, 243);
+    font-family: 'Roboto', sans-serif;
+    color: #F5EAEA;
+}
+
+/* ----- Main App -----*/
+#main {
+    width: 80vw;
+    min-width: 600px;
+    max-width: 800px;
+    background-color: #4D4646;
+    margin: 40px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    filter: drop-shadow(0 0 0.35rem #777)
+}
+
+/* ----- App Header -----*/
+#main-header {
+    display: flex;
+    justify-content: center;
+    background-color: #7FCD91;
+    Padding: 2.5%;
+}
+
+#main-header > h1 {
+    font-size: 3em;
+    font-weight: 300;
+}
+
+/* ----- App Body -----*/
+#main-body {
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+}
+
+#main-body > img {
+    width: 45%;
+    border-radius: 5%;
+}
+
+#main-body-text {
+    padding: 0 4%;
+}
+
+#main-body-text > ul {
+    font-size: 1.2em;
+    font-weight: 300;
+    list-style-type: none;
+}
+
+#main-body-text li {
+    margin-bottom: 2px;
+}
+
+#main-body-text b {
+    font-weight: 400;
+    color: #7FCD91;
+}
